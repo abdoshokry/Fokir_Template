@@ -30,10 +30,11 @@ $(window).scroll(function() {
 
 
     let scrollTop = $(window).scrollTop();
-    if (scrollTop > profilOfset) {
-        $("nav").css(" backgroundColor", "rgba(0,0,0,0.6)")
+    if (scrollTop > (profilOfset - 5)) {
+
+        $("nav").css("background-color", "rgba(0,0,0,0.8)")
     } else {
-        $("nav").css(" backgroundColor", "transparent")
+        $("nav").css("background-color", "transparent")
     }
 })
 

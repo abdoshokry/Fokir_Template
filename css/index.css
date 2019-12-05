@@ -2,6 +2,10 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
+    .aboalai {
+        transition: all 3s;
+    }
+    
     #btnup {
         position: fixed;
         bottom: 30px;
